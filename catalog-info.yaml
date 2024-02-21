@@ -10,8 +10,8 @@ metadata:
     vault.io/secrets-path: "api-demo-new"
     #grafana/tag-selector: "api-demo-new"
     #grafana/alert-label-selector: "alertname=api-demo-new"
-    grafana/tag-selector: "api-demo-new"
-    grafana/alert-label-selector: "alertname=api-demo-new"
+    grafana/dashboard-selector: "app-exemple-platform-k8s"
+    grafana/alert-label-selector: "alertname=app-exemple-platform-k8s"
     argocd/proxy-url: '/argocd/api'
     argocd/app-name: "api-demo-new"
 spec:
