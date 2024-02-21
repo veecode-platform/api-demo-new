@@ -1,0 +1,8 @@
+site_name: "api-demo-new"
+site_description: "api-demo-new"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

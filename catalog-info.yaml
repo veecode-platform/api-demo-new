@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-demo-new
+  description: "api-demo-new"
+  annotations:
+    github.com/project-slug: veecode-platform/api-demo-new
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "api-demo-new"
+    vault.io/secrets-path: "api-demo-new"
+    grafana/tag-selector: "api-demo-new"
+    grafana/alert-label-selector: "alertname=api-demo-new"
+    argocd/proxy-url: '/argocd/api'
+    argocd/app-name: "api-demo-new"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/admin"
+
+
+
