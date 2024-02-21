@@ -8,6 +8,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: "api-demo-new"
     vault.io/secrets-path: "api-demo-new"
+    #grafana/tag-selector: "api-demo-new"
+    #grafana/alert-label-selector: "alertname=api-demo-new"
     grafana/tag-selector: "api-demo-new"
     grafana/alert-label-selector: "alertname=api-demo-new"
     argocd/proxy-url: '/argocd/api'
